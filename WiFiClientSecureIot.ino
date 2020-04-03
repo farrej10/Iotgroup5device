@@ -10,7 +10,8 @@
 #define DHTPIN 13
 #define DHTTYPE DHT11
 #define uS_TO_S_FACTOR 1000000 
-#define TIME_TO_SLEEP  10
+//30min sleep
+#define TIME_TO_SLEEP  1200
 #define OPEN_WINDOW 2038
 #define CLOSE_WINDOW -2038 
 DHT dht(DHTPIN, DHTTYPE);
